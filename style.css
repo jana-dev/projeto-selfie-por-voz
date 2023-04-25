@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: radial-gradient(circle, rgba(138,97,140,1) 0%, rgba(75,69,70,1) 100%);
+    text-align: center;
+}
+
+h1{
+    margin-top: 30px;
+}
+h3{
+    margin: 20px 0;
+}
+textarea{
+    margin: 20px 0;
+}
+
+button{
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(178, 137, 218);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: rgb(197, 172, 222);
+}
+
+.webcamContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.webcam{
+    height: 300px;
+    width: 300px;
+    border: 2px solid purple;
+}
+
+p{
+    margin: 20px 0;
+}
